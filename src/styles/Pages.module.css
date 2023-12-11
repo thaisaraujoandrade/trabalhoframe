@@ -1,0 +1,50 @@
+.home{
+  color: #000;
+  min-height: 70vh;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  line-height: 1.6;
+  background-color:  #f5cbd7;
+  }
+  .lista{
+  background-color:  #f5cbd7;
+    text-align: center;
+    line-height: 1.6;
+    
+  }
+  .titulo{
+    margin-left: 20px;
+    text-align: center;
+  }
+  .img1{
+    text-align: center;
+  }
+  .nomes{
+    background-color: #f5cbd7;
+    align-items: center;
+  }
+  .nomes p{
+    
+    text-align: justify;
+
+    flex-direction: column;
+  }
+
+#main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+  /* Navbar and Footer styles can be added based on your component styles */
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .home {
+      padding: 10px;
+    }
+  }
